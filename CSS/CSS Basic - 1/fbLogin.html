@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Facebook - log in or sign up</title>
+		<style>
+			.facebook {
+				padding: 1rem 42rem 2rem 2rem;
+				margin-top: 10%;
+				margin-left: 12vw;
+			}
+
+			.fb {
+				font-size: 1.8em;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			form {
+				float: right;
+				margin-right: 16%;
+				margin-top: -16%;
+				background-color: aqua;
+				height: 300px;
+				width: 375px;
+				padding: 10px;
+				border-radius: 10px;
+			}
+
+			.login input {
+				font-size: 20px;
+				margin: 6px;
+				padding: 10px;
+				width: 90%;
+			}
+
+			.submit {
+				font-size: 20px;
+				margin: 6px;
+				padding: 10px;
+				width: 96.5%;
+			}
+
+            .forget a{
+                text-align: right;
+            }
+
+		</style>
+	</head>
+	<body>
+		<div class="facebook">
+			<!-- <div> -->
+			<img
+				src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+				alt="Facebook"
+				width="300px" /><br />
+			<!-- </div> -->
+			<span class="fb"
+				>Facebook helps you connect and share with the people in your
+				life.</span
+			>
+		</div>
+
+		<div class="login">
+			<form action="https://www.facebook.com/">
+				<input
+					type="text"
+					name="email"
+					placeholder="Email address or phone number" />
+
+				<input type="password" name="password" placeholder="Password" />
+
+				<button type="submit" class="submit">Log in</button>
+
+				<a class="forget"
+					href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"
+					>Forgotten password?</a
+				>
+			</form>
+		</div>
+	</body>
+</html>

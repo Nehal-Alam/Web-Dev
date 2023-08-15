@@ -1,0 +1,87 @@
+/* div {
+    background-color:yellow;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2rem;
+} */
+
+.left {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.right {
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+.bottom-left {
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+    position: absolute;
+    bottom: 1%;
+
+}
+
+.bottom-right {
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+    position: absolute;
+    bottom: 1%;
+    right: 1%
+}
+
+a {
+    width: 30%;
+    position: absolute;
+    left: 37% ;
+    top: 25%;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.card {
+    /* border: 2px solid black; */
+    /* width: 350px; */
+    padding: 20px;
+    display: block;
+    font-family: 'Baloo 2', cursive;
+    line-height: 2rem;
+    border-radius: 12px;
+    background-color: rgb(223, 223, 223);
+    opacity: 1px;
+}  
+
+.course-name{
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.final-price{
+    font-size: 20px;
+    color: slateblue;
+    font-weight: bolder;
+}
+
+.price{
+    font-size: 20px;
+    color:slategrey;
+    text-decoration:line-through;
+}
+
+.offer{
+    background-color: rgb(4, 255, 222);
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    border: 1px  solid black;
+    box-shadow: 0px 0px 20px 0px black;
+}

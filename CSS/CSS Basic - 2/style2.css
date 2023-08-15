@@ -1,0 +1,68 @@
+body {
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 45px 15px;
+    height: 100vh;
+    background-position: fixed;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 10px rgb(255, 0, 0);
+}
+
+.conic {
+    /* border: 2px solid black; */
+    position: relative;
+    height: 43vh;
+    margin-left: 10rem;
+    margin-right: 26rem;
+    left: 8rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 15px black;
+}
+
+
+.conicBox {
+    border: 2px solid blue;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 1rem;
+    display: inline-block;
+}
+
+#box1 {
+    background-image: conic-gradient(orange, white, green);
+}
+
+#box2 {
+    background-image: linear-gradient(orange, white, green);
+}
+
+#box3 {
+    background-image: radial-gradient(orange 30%, white 40%, green);
+}
+
+.matrix{
+    border-radius: 1rem;
+    box-shadow: 3px 3px 15px rgb(212, 87, 108);
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+
+.matrix img {
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    transform: matrix(1, -0.1, 0.3, 1, 0, 5);
+
+}
+
+.matrix h2{
+    text-align: center;
+    
+}

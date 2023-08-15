@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(82, 170, 247);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+    
+}
+
+.header{
+    background: yellow;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 10vh
+}
+
+.sidebar{
+    background: rgb(255, 255, 255);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: 76vh;
+    width: 20vw;
+}
+
+.main{
+    background: rgb(246, 122, 122);
+    height: 76vh;
+    width: 80vw;
+}
+
+.footer{
+    background: rgb(110, 97, 97);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 10vh;
+}

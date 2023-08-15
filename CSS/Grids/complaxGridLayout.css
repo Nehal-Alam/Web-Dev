@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(41, 41, 92);
+    height: 100vh;
+    width: auto ;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    'sb hd hd hd hd lg'
+    'sb cont1 cont1 cont2 cont2 lb'
+    'sb cont3 cont3 cont4 cont4 lb';
+    text-align: center;
+    align-items: stretch;
+
+}
+
+.header{
+    background-color: rgb(45, 180, 45);
+    grid-area: hd;
+}
+
+.login{
+    background-color: rgb(255, 30, 30);
+    grid-area: lg;
+}
+
+.sidebar{
+    background-color: rgb(45, 180, 45);
+    grid-area: sb;
+}
+
+.cont-1{
+    background-color: rgb(245, 245, 24);
+    grid-area: cont1;
+}
+
+.cont-2{
+    background-color: rgb(255, 30, 30);
+    grid-area: cont2;
+}
+
+.cont-3{
+    background-color: rgb(255, 30, 30);
+    grid-area: cont3;
+}
+
+.cont-4{
+    background-color: yellow;
+    grid-area: cont4;
+}
+.leftbar{
+    background-color: rgb(45, 180, 45);
+    grid-area: lb;
+}

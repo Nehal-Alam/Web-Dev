@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(213, 213, 214);
+}
+
+
+.card {
+    /* border: 2px solid black; */
+    width: 350px;
+    padding: 20px;
+    display: block;
+    font-family: 'Baloo 2', cursive;
+    line-height: 2rem;
+    border-radius: 12px;
+    background-color: white;
+    opacity: 1px;
+}  
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.course-name{
+    color:black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.line{
+    width: 75%;
+    height: 2px;
+    background-color: rgb(211, 211, 211);
+}
+
+.price-line-space{
+    line-height: 3rem;
+}
+
+.final-price{
+    font-size: large;
+    color: rgb(117, 102, 194);
+    font-weight: 700;
+}
+
+.price{
+    font-size: large;
+    color: rgb(131, 131, 131);
+    font-weight: 700;
+    text-decoration: line-through;
+}
+
+.percentage{
+    font-size: large;
+    font-weight: 700;
+    background-color: rgb(100, 253, 202);
+    border-radius: 8px;
+    padding: 2px;
+}
