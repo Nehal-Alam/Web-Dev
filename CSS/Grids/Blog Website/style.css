@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Ruwudu&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ruwudu&display=swap'); */
 
 * {
     margin: 5px 17px;
     box-sizing: border-box;
-    font-family: 'Ruwudu', serif;
+    /* font-family: 'Ruwudu', serif; */
 }
 
 .header{
@@ -58,7 +58,7 @@ h1 {
 
 button{
     padding: .5em ;
-    width: 12%;
+    width: 10%;
     border-radius: 1.5em;
     cursor: pointer;
 }
