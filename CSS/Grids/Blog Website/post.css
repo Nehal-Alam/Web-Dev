@@ -1,0 +1,106 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ruwudu&display=swap'); */
+
+* {
+    margin: 0px 15px;
+    box-sizing: border-box;
+    /* font-family: 'Ruwudu', serif; */
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+h1 {
+    /* font-size: 2rem; */
+    text-decoration: underline;
+
+}
+
+.sub a{
+    color: grey;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* gap: 0%; */
+    height: 150vh;
+    padding-top: 1.5em;
+}
+
+.wrapper section{
+    margin-bottom: 1.5%;
+}
+
+.container{
+    /* background-color: aquamarine; */
+}
+
+#sample-heading{
+    font-size: 2.5em;
+}
+
+.date{
+    color: gray;
+    font-size: 14px;
+}
+
+.para-border{
+    border: 1px solid gray;
+    padding-bottom: 1em;
+}
+
+.container h2{
+    font-size: 2em;
+}
+
+.code-block{
+    border: 1px solid gray;
+}
+
+button{
+    padding: .5em ;
+    width: 12%;
+    border-radius: 1.5em;
+    cursor: pointer;
+}
+
+.order-post{
+    transition: .3s;
+    color: rgb(0, 128, 255);
+    font-weight: bold;
+    border-color: rgb(0, 128, 255);
+}
+
+:hover.order-post{
+    background-color: rgb(0, 128, 255);
+    color: white;
+}
+
+.right-container{
+    width:20vw;
+}
+
+.right-container h3{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.about{
+    background-color: rgb(230, 230, 230);
+    padding: 1em;
+    border-radius: 0.5em;
+    line-height: 1.2em;
+}
+
+.archives, .elsewhere{
+    padding-top: 3em;
+    line-height: 1.5em;
+}
+
+.wrapper a{
+    color: rgb(25, 143, 227);
+}

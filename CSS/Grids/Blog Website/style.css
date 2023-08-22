@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu&display=swap');
+
+* {
+    margin: 5px 17px;
+    box-sizing: border-box;
+    font-family: 'Ruwudu', serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+
+}
+
+.sub a{
+    color: grey;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+}
+
+.box {
+    border: 2px solid gray;
+    padding: 1em;
+    line-height: 25px;
+    box-shadow: black 1px 2px 5px;
+}
+
+.world{
+    color: rgb(0, 38, 255);
+    font-weight: bold;
+}
+
+.design{
+    color:rgb(17, 183, 17);
+    font-weight: bold;
+}
+
+.box a{
+    color: rgb(91, 108, 235);
+}
+
+.date{
+    font-size: 14px;
+    color: gray;
+}
+
+button{
+    padding: .5em ;
+    width: 12%;
+    border-radius: 1.5em;
+    cursor: pointer;
+}
