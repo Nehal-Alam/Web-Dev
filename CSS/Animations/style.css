@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    font-size: 1.1em;
+    padding: .5em 2em;
+    border-radius: 0%;
+    background-color: rgb(255, 75, 75);
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 8px 0px #0000003f;
+    position: relative;
+    z-index: 1;
+
+}
+
+.button::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+    z-index: -1;
+}
+
+.button:hover::before{
+    transform: scaleX(1);
+
+}
