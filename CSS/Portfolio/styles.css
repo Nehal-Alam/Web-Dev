@@ -117,6 +117,7 @@ nav a:hover {
 
 .btn {
     position: relative;
+    text-decoration: none;
     background-color: #e84949;
     width: fit-content;
     color: #fff;
@@ -422,7 +423,7 @@ nav a:hover {
     font-style: italic;
 }
 
-.borderless-btn{
+.borderless-btn {
     border: none;
 }
 
@@ -478,7 +479,7 @@ nav a:hover {
     overflow: hidden;
 }
 
-.skills-container{
+.skills-container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -489,53 +490,53 @@ nav a:hover {
 
 }
 
-.skill-container-left{
+.skill-container-left {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.skill-heading{
-    color:#e84949;
+.skill-heading {
+    color: #e84949;
     font-size: 50px;
     line-height: 50px;
 }
 
-.caps{
+.caps {
     font-size: 5rem;
 }
 
-.skill-description{
+.skill-description {
     margin-top: 1rem;
     width: 85%;
     text-align: justify;
 }
 
-.skill-description p{
+.skill-description p {
     margin-bottom: 1rem;
 }
 
-.skill-container-right{
+.skill-container-right {
     width: 50%;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     position: relative;
     justify-content: center;
 }
 
-.skills-logo{
+.skills-logo {
     width: 80px;
     transition: all 0.5s;
     transform: scale(1);
 }
 
-.skills-logo:hover{
+.skills-logo:hover {
     transform: scale(1.2);
 }
 
-.blob-style{
+.blob-style {
     position: absolute;
     z-index: -1;
     top: 50%;
@@ -546,30 +547,30 @@ nav a:hover {
 
 @keyframes blobAnimation {
     50% {
-    top: 60%;
-    left: 50%;
+        top: 60%;
+        left: 50%;
     }
 }
 
-.contact_us-form-container{
+.contact_us-form-container {
     width: 100vw;
     background-color: rgb(231, 231, 231);
     /* padding-top: 3rem; */
 }
 
-.form-heading{
+.form-heading {
     font-size: 5rem;
     color: #e84949;
     padding-top: 2rem;
 }
 
-.form-sub-heading{
+.form-sub-heading {
     font-size: 3rem;
     color: #343d68aa;
     text-transform: capitalize;
 }
 
-.form-container{
+.form-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -584,7 +585,8 @@ nav a:hover {
     margin: 2rem 5rem;
 }
 
-input, textarea{
+input,
+textarea {
     font-size: 1.1rem;
     width: 100%;
     height: 40px;
@@ -596,12 +598,12 @@ input, textarea{
     font-weight: 400;
 }
 
-.messageInput{
-    height: auto ;
+.messageInput {
+    height: auto;
     padding-top: 1rem;
 }
 
-#submit-btn{
+#submit-btn {
     margin: 1rem auto;
     padding: 0.8rem 2.7rem;
     font-size: 1.4rem;
@@ -610,35 +612,35 @@ input, textarea{
     transition: all .3s ease-in-out;
 }
 
-#submit-btn:hover{
+#submit-btn:hover {
     border: none;
     transform: scale(0.9);
 }
 
-.submit-icon{
+.submit-icon {
     padding-left: 1rem;
 }
 
-.footer-container{
+.footer-container {
     width: 100vw;
     height: 30vh;
     background-color: #343d68;
     position: relative;
 }
 
-.footer{
+.footer {
     display: flex;
     padding-top: 6rem;
 }
 
-.footer-container-left{
+.footer-container-left {
     display: flex;
     gap: 2rem;
     width: 50%;
     align-items: center;
 }
 
-.footer-container-left a{
+.footer-container-left a {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
@@ -651,12 +653,12 @@ input, textarea{
     color: #e84949;
 }
 
-.footer-container-right{
+.footer-container-right {
     display: flex;
     justify-content: end;
     width: 50%;
     color: #fff;
-    gap: 1rem;   
+    gap: 1rem;
 }
 
 .footer-faded-text {
@@ -667,4 +669,207 @@ input, textarea{
     bottom: 0%;
     left: 0%;
     overflow: hidden;
+}
+
+@media (max-width:1500px) {
+    nav {
+        padding: 0 8em;
+    }
+}
+
+@media (max-width:1000px) {
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width:1300px) {
+    .hero-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: -1rem;
+        padding-bottom: 3rem;
+    }
+
+    .description {
+        text-align: center;
+        margin: auto;
+    }
+
+    .faded-text {
+        display: none;
+    }
+
+    /* #btn {
+        display: none;
+    }
+
+    #btn-bottom {
+        margin-top: -7rem;
+        display: block;
+    } */
+
+    .right-hero-section {
+        margin-top: -6em;
+        scale: 0.7;
+    }
+
+    .page-header {
+        padding-top: 30px;
+        color:#e84949;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .project-container {
+        padding: 5px;
+        margin: 10px;
+        gap: 60px;
+    }
+
+    .project-card {
+        width: 100%;
+        height: 300px;
+    }
+
+    .project-card {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project-content {
+        scale: 0.5;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .project-content-left {
+        left: 0;
+    }
+
+    .project-heading {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .project-description {
+        width: 100%;
+    }
+
+    #project-2 {
+        margin-left: 0;
+    }
+
+    #project-4 {
+        margin-left: 0;
+    }
+
+    .project-skills-container {
+        width: 100%;
+    }
+
+    .project-skill {
+        width: 35px;
+    }
+
+    .project-card:hover .project-number {
+        display: none;
+    }
+
+    .project-card:hover .project-content {
+        scale: 0.55;
+    }
+
+    .skills-container {
+        margin: 0;
+        padding: 2em;
+        flex-direction: column;
+    }
+
+    .skill-heading {
+        font-size: 40px;
+        font: bold;
+    }
+
+    .caps {
+        font-size: 60px;
+    }
+
+    .skill-container-left {
+        width: 100%;
+    }
+
+    .skill-container-right {
+        width: 100%;
+    }
+
+    .skills-logo {
+        width: 50px;
+    }
+
+    .skill-faded-text {
+        display: none;
+    }
+
+    .skill-description {
+        width: 100%;
+    }
+
+    .skill-heading::after {
+        bottom: 9%;
+    }
+
+    .form-heading {
+        font-size: 40px;
+        text-align: center;
+        padding: 15px 10px;
+    }
+
+    .form-sub-heading {
+        font-size: 20px;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .form {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+
+    .form-container {
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+
+    input, textarea{
+        width: 90%;
+    }
+
+    footer {
+        padding: 0.5rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-container-right{
+        justify-content: center;
+    }
+    .footer-container-left{
+        justify-content: center;
+    }
+
+    .footer-faded-text {
+        display: none;
+    }
 }
