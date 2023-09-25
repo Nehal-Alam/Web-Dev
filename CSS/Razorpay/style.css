@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(3, 36, 56);
+    font-family: 'Mulish', sans-serif;
+    padding: 2rem;
+}
+
+.container{
+    width: 1080px;
+    /* height: auto; */
+    position: relative;
+    margin: 0% auto;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.logo{
+    width: 12%;
+}
+
+.navs{
+    display:flex ;
+    gap: 1.5rem;
+    color: white;
+    font: 900;
+
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    gap: .6rem;
+}
+
+.login-btn{
+    width: 5.5rem;
+    padding: 1rem 0;
+    color: white;
+    background-color: darkblue;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.signup-btn{
+    width: 7rem;
+    padding: 1rem 0;
+    color: rgb(0, 139, 194);
+    font-weight: bold;
+    background-color: white;
+    border:1px solid white;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.signup-btn:hover{
+    color: rgb(39, 39, 122);
+}
+
+.nav-item:hover .nav-item div{
+    display: block;
+    color: aqua;
+}
