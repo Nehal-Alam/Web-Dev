@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.coreFeature{
+    background-size: 100% 100%;
+}
+
+.ctaBg{
+    background-size: 100% 100%;
+}
+
+.companiesLists{
+    animation: 10s infinite linear moveCompany;
+}
+
+@keyframes moveCompany {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -50%;
+    }
+}
