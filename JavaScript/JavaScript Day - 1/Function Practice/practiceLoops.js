@@ -38,7 +38,7 @@ let num = 0;
 let i= 0;
 let sum = 0;
 
-while (i < 2) {
+while (i < 5) {
     num = Number(prompt("Enter number: "));
     sum = sum + num;
     i++;
@@ -46,6 +46,5 @@ while (i < 2) {
 console.log("Sum",sum);
 let mean = sum / i;
 console.log("Mean", mean);
-
 
 // 5.    Write a function to find mean of 5 numbers.
