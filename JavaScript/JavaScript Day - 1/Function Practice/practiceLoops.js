@@ -33,7 +33,7 @@ while (true) {
     }
 }
 
-// 4.    Write a function to find mean of 5 numbers.
+// 4.    Write a program to find mean of 5 numbers.
 let num = 0;
 let i= 0;
 let sum = 0;
@@ -46,3 +46,6 @@ while (i < 2) {
 console.log("Sum",sum);
 let mean = sum / i;
 console.log("Mean", mean);
+
+
+// 5.    Write a function to find mean of 5 numbers.
