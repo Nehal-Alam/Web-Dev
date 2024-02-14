@@ -10,7 +10,7 @@ let rectangle = {
 
 console.log(rectangle.length);
 console.log(rectangle.width);
-console.log(rectangle.areaRectangle());
+console.log(rectangle.areaRectangle);
 
 // Crate Object inside the function
 
@@ -20,7 +20,7 @@ function createRectangle() {
   return (rectangle = {
     length: 2,
     width: 3,
-    // Function inside the  object
+    // obejct inside the Function 
     draw() {
       console.log("Creating Rectangle");
     },
@@ -30,4 +30,4 @@ function createRectangle() {
 }
 
 let printRectangle = createRectangle();
-console.log(createRectangle());
+console.log(createRectangle);
