@@ -55,4 +55,4 @@ let rectangle = {
 
 for (key in rectangle) {
   console.log(key, rectangle[key]);
-}
+} 
