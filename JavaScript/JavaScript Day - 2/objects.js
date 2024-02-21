@@ -31,3 +31,20 @@ function createRectangle() {
 
 let printRectangle = createRectangle();
 console.log(createRectangle);
+
+// Increament on value of Object using function
+let a = {value : 10};
+function ince(a){
+  a.value++;
+}
+ince(a);
+console.log(a);
+
+// It will not Increamented  because JavaScript pass argument by Value and not by Reference so it's not changing original object but creating 
+let a1 = 10;
+function Increament(a1) {
+  a1++;
+}
+
+Increament(a1);
+console.log(a1)

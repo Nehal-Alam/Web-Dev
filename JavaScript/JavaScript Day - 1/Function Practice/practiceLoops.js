@@ -47,4 +47,12 @@ console.log("Sum", sum);
 let mean = sum / i;
 console.log("Mean", mean);
 
-// 5.    Write a function to find mean of 5 numbers.
+// For-in Loop
+let rectangle = {
+  length: 2,
+  breath: 5,
+};
+
+for (key in rectangle) {
+  console.log(key, rectangle[key]);
+}
