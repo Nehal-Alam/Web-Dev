@@ -15,5 +15,8 @@ console.log(str.padEnd());
 console.log(str.codePointAt(2));
 console.log(str.replace("This is a string", "Hello World"));
 console.log(str.replaceAll("a", "A"));
-console.log(str.split()); 
+console.log(str.split());
+console.log(str.startsWith("T"));
+console.log(str.endsWith("g"));
+console.log(str.indexOf("n"))
 
