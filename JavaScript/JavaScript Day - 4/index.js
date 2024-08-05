@@ -106,9 +106,9 @@ console.log(marks.displayMarks);
 // Reduce method
 let arr = [1, 2, 3, 4, 5];
 let totalSum = arr.reduce((a, b) => a + b);
-console.log("Printing total sum: ")
+console.log("Printing total sum: ");
 console.log(totalSum);
 
 console.log("Printing multiplication : ");
 let multiplication = arr.reduce((a, b) => a * b);
-console.log(multiplication)
+console.log(multiplication);
