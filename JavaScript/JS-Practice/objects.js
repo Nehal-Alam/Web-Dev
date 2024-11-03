@@ -9,13 +9,13 @@ console.log(rectangle);
 // Types of Object:
 // 1. Factory Function  -> Initialise the property/ method and return the values.
 function areaOfRectangle(length, breadth) {
-  return (values = {
+  return values = {
     length,
     breadth,
     area() {
       console.log("Area of Rectangle: ", length * breadth);
     },
-  });
+  };
 }
 
 // console.log(areaOfRectangle.area(5,6));
